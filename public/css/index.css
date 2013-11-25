@@ -13,12 +13,12 @@ header.mainNav nav {
   padding: 1em;
 }
 /* line 20, scss/index.scss */
-header.mainNav nav a {
-  font-size: 2rem;
-}
-/* line 23, scss/index.scss */
-header.mainNav nav a a.left:before, header.mainNav nav a a.right:after {
+header.mainNav nav a.left:before, header.mainNav nav a.right:after {
   content: "f";
   font-size: 25px;
   font-family: 'Comic Sans MS';
+}
+/* line 26, scss/index.scss */
+header.mainNav nav a {
+  font-size: 2rem;
 }

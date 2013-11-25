@@ -17,14 +17,14 @@ header.mainNav {
 
 		padding: 1em;
 
+		%nav_icon {
+			content: "f";
+			font-size: 25px;
+			font-family: 'Comic Sans MS';
+		}
+
 		a {
 			font-size: 2rem;
-
-			%nav_icon {
-				content: "f";
-				font-size: 25px;
-				font-family: 'Comic Sans MS';
-			}
 
 			&.left:before {
 				@extend %nav_icon;
