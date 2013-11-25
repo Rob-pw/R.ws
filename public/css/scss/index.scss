@@ -4,35 +4,44 @@ $pane: #E6FFFF;
 $tron_cyan: #6FC3DF;
 $basestar: #0C141F;
 
+// Floats Generic
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+
+%nav_icon {
+	content: "f";
+	font-size: 25px;
+	font-family: 'Comic Sans MS';
+	color: white
+}
+
 header.mainNav {
 	width: 100%;
 	height: 10%;
 	background-color: $basestar;
 
 	nav {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
 
 		padding: 1em;
 
-		a {
-			font-size: 2rem;
+		.nav-list {
 
-			%nav_icon {
-				content: "f";
-				font-size: 25px;
-				font-family: 'Comic Sans MS';
+			.home, .settings {
+				font-size: 4rem;	
 			}
-
-			&.left:before {
+			
+			.home:before {
 				@extend %nav_icon;
 			}
 
-			&.right:after {
+			.settings:after {
 				@extend %nav_icon;
 			}
+
 		}
 	}
 }
