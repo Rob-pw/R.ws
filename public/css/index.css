@@ -1,32 +1,25 @@
-/* line 8, scss/index.scss */
-.left {
-  float: left;
-}
-
-/* line 11, scss/index.scss */
-.right {
-  float: right;
-}
-
-/* line 15, scss/index.scss */
-header.mainNav nav .nav-list .home:before, header.mainNav nav .nav-list .settings:after {
+/* line 1, scss/placeholders.scss */
+header.mainNav nav a.left:before, header.mainNav nav a.right:after {
   content: "f";
   font-size: 25px;
   font-family: 'Comic Sans MS';
-  color: white;
 }
 
-/* line 22, scss/index.scss */
+/* line 4, scss/index.scss */
 header.mainNav {
   width: 100%;
   height: 10%;
   background-color: #0c141f;
 }
-/* line 27, scss/index.scss */
+/* line 9, scss/index.scss */
 header.mainNav nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   padding: 1em;
 }
-/* line 33, scss/index.scss */
-header.mainNav nav .nav-list .home, header.mainNav nav .nav-list .settings {
-  font-size: 4rem;
+/* line 17, scss/index.scss */
+header.mainNav nav a {
+  font-size: 2rem;
 }

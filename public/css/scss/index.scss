@@ -1,23 +1,5 @@
-$tron_orange: #DF740C;
-$sweet_yellow: #FFE64D;
-$pane: #E6FFFF;
-$tron_cyan: #6FC3DF;
-$basestar: #0C141F;
-
-// Floats Generic
-.left {
-	float: left;
-}
-.right {
-	float: right;
-}
-
-%nav_icon {
-	content: "f";
-	font-size: 25px;
-	font-family: 'Comic Sans MS';
-	color: white
-}
+@import 'variables';
+@import 'placeholders';
 
 header.mainNav {
 	width: 100%;
@@ -25,23 +7,23 @@ header.mainNav {
 	background-color: $basestar;
 
 	nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
 
 		padding: 1em;
 
-		.nav-list {
+		a {
+			font-size: 2rem;
 
-			.home, .settings {
-				font-size: 4rem;	
-			}
-			
-			.home:before {
+			&.left:before {
 				@extend %nav_icon;
 			}
 
-			.settings:after {
+			&.right:after {
 				@extend %nav_icon;
 			}
-
 		}
 	}
 }
