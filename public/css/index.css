@@ -1,0 +1,24 @@
+/* line 7, scss/index.scss */
+header.mainNav {
+  width: 100%;
+  height: 10%;
+  background-color: #0c141f;
+}
+/* line 12, scss/index.scss */
+header.mainNav nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+/* line 20, scss/index.scss */
+header.mainNav nav a {
+  font-size: 2rem;
+}
+/* line 23, scss/index.scss */
+header.mainNav nav a a.left:before, header.mainNav nav a a.right:after {
+  content: "f";
+  font-size: 25px;
+  font-family: 'Comic Sans MS';
+}
