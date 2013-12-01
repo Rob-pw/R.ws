@@ -1,0 +1,1015 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"dec",
+				"decrement"
+			],
+			[
+				"las",
+				"lastURL_decimal"
+			],
+			[
+				"in",
+				"incrementStart"
+			],
+			[
+				"url",
+				"urlSettings"
+			],
+			[
+				"to",
+				"toDecimal"
+			],
+			[
+				"inc",
+				"incremented"
+			],
+			[
+				"bas",
+				"base_n"
+			],
+			[
+				"find",
+				"findadd"
+			],
+			[
+				"view",
+				"viewPath"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"if",
+				"if	@if"
+			],
+			[
+				"mon",
+				"mongo"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"p",
+				"params"
+			],
+			[
+				"long",
+				"longURL"
+			],
+			[
+				"new",
+				"newURL"
+			],
+			[
+				"getSh",
+				"getShortURL"
+			],
+			[
+				"get",
+				"getLongURL"
+			],
+			[
+				"add",
+				"addURL"
+			],
+			[
+				"URL",
+				"URLManager"
+			],
+			[
+				"valu",
+				"valueOfChar"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"value",
+				"valueOfChar"
+			],
+			[
+				"conv",
+				"convert"
+			],
+			[
+				"valo",
+				"valueToAdd"
+			],
+			[
+				"base",
+				"base_n"
+			],
+			[
+				"val",
+				"valueOfChar"
+			],
+			[
+				"border-radius",
+				"border-bottom-left-radius"
+			],
+			[
+				"q",
+				"q-ru	quotes: '\\00AB' '\\00BB' '\\201E' '\\201C';"
+			],
+			[
+				"an",
+				"anim-	animation: ${1:name} ${2:duration} ${3:timing-function} ${4:delay} ${5:iteration-count} ${6:direction} ${7:fill-mode};"
+			],
+			[
+				"a",
+				"anim-	animation: ${1:name} ${2:duration} ${3:timing-function} ${4:delay} ${5:iteration-count} ${6:direction} ${7:fill-mode};"
+			],
+			[
+				"docu",
+				"document.querySelector"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"head",
+				"header-font-size"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"spa",
+				"space-around"
+			],
+			[
+				"mt",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"qu",
+				"queues"
+			],
+			[
+				"login",
+				"loginDetails"
+			],
+			[
+				"db",
+				"dbServ"
+			],
+			[
+				"ER",
+				"err"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"BAC",
+				"background-image"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"webki",
+				"webkit-box"
+			],
+			[
+				"proj",
+				"projects"
+			],
+			[
+				"proje",
+				"projects"
+			],
+			[
+				"vai",
+				"validOptions"
+			],
+			[
+				"prom",
+				"prompt_message"
+			],
+			[
+				"try",
+				"try	Try/Except"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"__",
+				"__populateArray"
+			],
+			[
+				"cu",
+				"currentPart"
+			],
+			[
+				"cur",
+				"currentVar"
+			],
+			[
+				"curr",
+				"currentVar"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/searchadd.html",
+			"settings":
+			{
+				"buffer_size": 261,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 1001,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/findadd.jade",
+			"settings":
+			{
+				"buffer_size": 991,
+				"line_ending": "Unix",
+				"name": "html"
+			}
+		},
+		{
+			"file": "public/noredirect.html",
+			"settings":
+			{
+				"buffer_size": 720,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/base_n.js",
+			"settings":
+			{
+				"buffer_size": 2689,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models/url.js",
+			"settings":
+			{
+				"buffer_size": 1074,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "html\n  head\n    meta(charset='UTF-8')\n    link(rel='stylesheet', href='css/reset.css')\n    link(rel='stylesheet', href='css/index.css')\n    link(rel='stylesheet', href='css/notice.css')\n    title ʀ.ws .:. Redirection Failure\n  body\n    header.mainNav\n      nav.right\n        a.right.icon-arrow-right(href='//destination') Go!\n    main\n      section\n        header\n          h1 Woah, dude!\n        p\n          | I'm unable to automatically redirect you to your destination;\n          br\n          | please enable Javascript or click here:\n          a(href='//destination') Go!\n    footer.legalBS\n      h1 Copyright Rob.PW; All Rights Reserved.\n",
+			"settings":
+			{
+				"buffer_size": 643,
+				"line_ending": "Unix",
+				"name": "html"
+			}
+		},
+		{
+			"file": "controllers/url.js",
+			"settings":
+			{
+				"buffer_size": 1828,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "function(req, res) {\n	var urlParts = req.params[0].split('/')/*req.url.substring(1).split('/')*/\n	,	url = URLManager.get(urlParts[0])\n	,	key = urlParts[1]\n	,	longURL;\n\n	if(url) {\n		console.info(\"U: \" + url.shortURL + (key ? \", K: \" + key : ''));\n		longURL = url.getURL(key);\n		if(longURL) {\n			console.info(\"LongURL : \" + longURL);\n			url.visit();\n			res.redirect(301, longURL);\n		} else {\n			res.redirect(403, '403.html');\n		}\n	} else {\n		res.redirect(404, '404.html');\n	}\n});",
+			"settings":
+			{
+				"buffer_size": 477,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 306.0,
+		"selected_items":
+		[
+			[
+				"ssj",
+				"Set Syntax: Jade"
+			],
+			[
+				"ssja",
+				"Set Syntax: Jade"
+			],
+			[
+				"ssh",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"REI",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"sscs",
+				"Set Syntax: CSS"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"sscss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"sh",
+				"Snippet: html"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"SSCSS",
+				"Set Syntax: SCSS"
+			],
+			[
+				"ssc",
+				"Set Syntax: CSS"
+			]
+		],
+		"width": 458.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": true,
+		"side_bar_visible": true,
+		"status_bar_visible": true
+	},
+	"file_history":
+	[
+		"/home/robert/Documents/Github/R.ws/public/urls.html",
+		"/home/robert/Documents/Github/R.ws/lib/URLs.js",
+		"/home/robert/Documents/Github/R.ws/routes/main.js",
+		"/home/robert/Documents/Github/R.ws/lib/base_n.js",
+		"/home/robert/Documents/Github/R.ws/lib/URL_new.js",
+		"/home/robert/Documents/Github/R.ws/main.js",
+		"/home/robert/Documents/Github/R.ws/views/test.jade",
+		"/home/robert/Documents/Github/R.ws/package.json",
+		"/home/robert/Documents/Github/christmas_widget/README.md",
+		"/home/robert/Documents/Veronika Schwarz",
+		"/home/robert/Documents/Github/R.ws/models/url.js",
+		"/home/robert/Documents/Github/christmas_widget/snowman/css/main.css",
+		"/home/robert/Documents/Github/R.ws/controllers/url.js",
+		"/home/robert/Documents/Github/christmas_widget/snowman/scss/main.scss",
+		"/home/robert/Documents/Github/christmas_widget/snowman/scss/_animations.scss",
+		"/home/robert/Documents/Github/christmas_widget/snowman/index.html",
+		"/home/robert/Downloads/Node-Express-MVR-Example-master/routes.js",
+		"/home/robert/Downloads/Node-Express-MVR-Example-master/models/example.js",
+		"/home/robert/Documents/Github/christmas_widget/snowman/config.rb",
+		"/home/robert/Downloads/specimen.ttf",
+		"/home/robert/Downloads/Node-Express-MVR-Example-master/config.js",
+		"/home/robert/Downloads/Node-Express-MVR-Example-master/app.js",
+		"/home/robert/Documents/Github/Peptide.io/index.html",
+		"/home/robert/Documents/Github/R.ws/public/css/scss/index.scss",
+		"/home/robert/Documents/Github/R.ws/public/css/scss/main.scss",
+		"/home/robert/Documents/Github/R.ws/public/css/scss/notice.scss",
+		"/home/robert/Documents/Github/R.ws/public/css/scss/_placeholders.scss",
+		"/home/robert/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/robert/Documents/Github/R.ws/public/searchadd.html",
+		"/home/robert/Documents/Github/R.ws/public/css/scss/_variables.scss",
+		"/home/robert/Documents/Github/R.ws/public/css/scss/_mixins.scss",
+		"/home/robert/Documents/Github/R.ws/public/css/scss/_chosen-icons.scss",
+		"/home/robert/Documents/Github/R.ws/public/css/scss/_metro-font.scss",
+		"/home/robert/Documents/Github/R.ws/public/css/metro-font.css",
+		"/home/robert/Downloads/Metro-UI-CSS-master/css/metro-bootstrap.css",
+		"/home/robert/Downloads/Metro-UI-CSS-master/docs/css/metro-bootstrap.css",
+		"/home/robert/Downloads/Metro-UI-CSS-master/README.md",
+		"/home/robert/Downloads/Metro-UI-CSS-master/css/metro-bootstrap-responsive.css",
+		"/home/robert/Documents/Github/R.ws/public/css/scss/placeholders.scss",
+		"/home/robert/Documents/Github/R.ws/public/css/index.scss",
+		"/home/robert/Documents/Github/R.ws/public/index.html",
+		"/home/robert/Documents/Github/html-training/UI-SCSS/misc/button-themes.html",
+		"/home/robert/Documents/Github/R.ws/lib/models/url.js",
+		"/home/robert/Documents/Github/R.ws/lib/controllers/url.js",
+		"/home/robert/Documents/Github/html-training/Tuts+ - Final Project/css/home.scss",
+		"/home/robert/Downloads/table.txt",
+		"/home/robert/Documents/Github/html-training/Tuts+ - Final Project/index.html",
+		"/home/robert/Documents/Github/html-training/Tuts+ - Final Project/css/home.css",
+		"/home/robert/Documents/Github/R.ws/pub/403.html",
+		"/home/robert/Documents/Github/R.ws/pub/404.html",
+		"/home/robert/Documents/Github/R.ws/lib/express/index.js",
+		"/home/robert/Documents/Github/R.ws/lib/express/Readme.md",
+		"/home/robert/Documents/Github/R.ws/lib/express/test.js",
+		"/home/robert/Documents/Github/Capture/lib/accountManager.js",
+		"/home/robert/Documents/Github/Capture/lib/db/dbServ.js",
+		"/home/robert/Documents/Github/R.ws/js/toBase.js",
+		"/home/robert/Documents/Github/html-training/UI-SCSS/misc/css/scss/_buttons.scss",
+		"/home/robert/Documents/Github/R.ws/js/base72.js",
+		"/home/robert/Documents/2letters.cf",
+		"/home/robert/Documents/Github/html-training/UI-SCSS/misc/config.rb",
+		"/home/robert/Documents/Github/html-training/UI-SCSS/misc/css/_themes.scss",
+		"/home/robert/Documents/Github/Capture/main.js",
+		"/home/robert/Documents/Github/Capture/pub/js/new/binds.js",
+		"/home/robert/Documents/Github/Capture/pub/js/new/pageLoader.js",
+		"/home/robert/Documents/Github/Capture/lib/socket/socketServ.js",
+		"/home/robert/Documents/Github/Capture/pub/index.html",
+		"/home/robert/Documents/Github/Capture/pub/css/menu.css",
+		"/home/robert/Documents/Github/Capture/pub/js/new/modules/loginManager.js",
+		"/home/robert/Documents/Github/Capture/pub/js/new/Objects/Account.js",
+		"/home/robert/Documents/Github/Capture/pub/js/new/index.js",
+		"/home/robert/Documents/Github/html-training/UI-SCSS/mixins-columns/index.html",
+		"/home/robert/Documents/Github/html-training/UI-SCSS/mixins-columns/css/scss/screen.scss",
+		"/home/robert/Documents/Github/html-training/UI-SCSS/mixins-columns/css/sass/screen.scss",
+		"/home/robert/Documents/Github/html-training/UI-SCSS/mixins-columns.html",
+		"/home/robert/Documents/Github/html-training/UI-SCSS/seoul-plaza/index.html",
+		"/home/robert/Documents/Github/html-training/UI-SCSS/seoul-plaza/scss/home.scss",
+		"/home/robert/Documents/Github/html-training/UI-SCSS/seoul-plaza/css/home.scss",
+		"/home/robert/Documents/Github/html-training/Innovation_Identity/index.html",
+		"/home/robert/Documents/Github/html-training/Innovation_Identity/css/home.css",
+		"/home/robert/Documents/domains.su",
+		"/home/robert/Documents/Github/html-training/Innovation_Identity/css/testing.css",
+		"/home/robert/Documents/Github/html-training/Flexbox/css/example2.css",
+		"/home/robert/Documents/Github/html-training/Flexbox/holy_grail.html",
+		"/home/robert/Documents/Github/html-training/Flexbox/example1.html",
+		"/home/robert/Documents/Github/html-training/Flexbox/css/example1.css",
+		"/home/robert/Documents/Github/html-training/Innovation_Identity/flex-demo.html",
+		"/home/robert/.wine/drive_c/users/robert/Temp/dd_netfx20UI5DCE.txt",
+		"/home/robert/.wine/drive_c/users/robert/Temp/XDKSetup.log",
+		"/D/Users/rwhite3/Documents/Projects/Capture/lib/db/node_modules/mysql-queues/index.js",
+		"/C/Users/Robert/Documents/GitHub/Capture/pub/css/login.css",
+		"/C/Users/Robert/Downloads/schedule (2).ics",
+		"/C/Users/Robert/Documents/GitHub/Capture/lib/db/test.ks",
+		"/D/Users/rwhite3/Documents/Projects/Capture/lib/http/httpServ.js",
+		"/C/Users/Robert/Documents/GitHub/Capture/pub/foo.html",
+		"/C/Users/Robert/Documents/GitHub/Capture/pub/css/capture.css",
+		"/C/Users/Robert/Documents/GitHub/Capture/pub/js/pageLoader",
+		"/C/Users/Robert/Documents/GitHub/Capture/pub/js/loader.js",
+		"/C/Users/Robert/Documents/GitHub/Capture/.gitignore",
+		"/C/Users/Robert/SkyDrive/Documents/Development/HTML 5/Lyca.me/pjt/8bit/prv/src/server.conf",
+		"/C/Users/Robert/Documents/GitHub/Capture/css/home.css",
+		"/C/Users/Robert/Documents/GitHub/Capture/us.html",
+		"/C/Users/Robert/Documents/GitHub/Capture/js/main.js",
+		"/C/Users/Robert/Documents/GitHub/Capture/us_.html",
+		"/C/Users/Robert/Documents/GitHub/Capture/css/us.css",
+		"/C/Users/Robert/Documents/GitHub/Capture/pageTwo.html",
+		"/C/Users/Robert/Documents/GitHub/Capture/css/index.css",
+		"/D/Users/rwhite3/Documents/Projects/Capture/js/index.js",
+		"/C/Users/rwhite3/AppData/Local/Temp/Rar$DRa0.494/jquery.mobile-1.3.2.js",
+		"/D/Users/rwhite3/Documents/Projects/Capture/config.xml",
+		"/D/Users/rwhite3/Documents/Projects/Capture/spec.html",
+		"/D/Users/rwhite3/Documents/GitHub/DBApp/index.html",
+		"/D/Users/rwhite3/Documents/Projects/Rob.PW/htdocs/css/reset.css",
+		"/D/Users/rwhite3/Documents/Projects/js/inputValidator.js",
+		"/D/Users/rwhite3/Documents/Alun-Soper",
+		"/D/Users/rwhite3/Documents/Projects/Occulus Rift Virtual Training Environment/htdocs/index.html",
+		"/D/Users/rwhite3/Documents/Projects/Occulus Rift Virtual Training Environment/htdocs/js/main.js",
+		"/D/Users/rwhite3/Documents/Projects/Occulus Rift Virtual Training Environment/htdocs/js/environment_init.js",
+		"/D/Users/rwhite3/Documents/QA Training/SQL/Queries.sql",
+		"/D/Users/rwhite3/Downloads/proxy.pac",
+		"/D/Users/rwhite3/Documents/QA Training/SQL/SQLQuery1.sql",
+		"/D/Users/rwhite3/Documents/SkypeProxySettings.reg",
+		"/D/Users/rwhite3/Documents/QA Training/Lesson 3/sieve.py",
+		"/D/Users/rwhite3/Documents/QA Training/Assessments/first.py",
+		"/D/Users/rwhite3/Documents/QA Training/Lesson 2/LuhnAlgorithm.py",
+		"/D/Users/rwhite3/Documents/QA Training/Lesson 2/KaprekarConstant.py",
+		"/D/Users/rwhite3/Documents/Projects/ContactWeb/PHP/register.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"console.err",
+			" +",
+			"docs",
+			".",
+			"\n{",
+			".metro ",
+			"iconFont",
+			"metro",
+			"webfont",
+			"base",
+			" ",
+			"\n",
+			"0\n",
+			"0",
+			"\n",
+			" ",
+			"a",
+			"b",
+			"æ b",
+			" ",
+			".bz",
+			".hk",
+			".co",
+			".fm",
+			".am",
+			".ac",
+			".io",
+			"\n",
+			" ",
+			"C",
+			"B \n",
+			" ",
+			"8",
+			"7\n8",
+			"\n",
+			"0",
+			"\n",
+			" ",
+			"\n",
+			"5",
+			"4",
+			"3",
+			"2",
+			"1",
+			"#loginInfo",
+			"#loginOptions",
+			"#menuOptions ul li:hover ul",
+			"#menuOptions ul li ul li[data-icon]:after",
+			"a",
+			"div",
+			"label",
+			"div",
+			"php",
+			"html",
+			"python",
+			"html",
+			" ",
+			"person me",
+			":hover",
+			"$"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"%",
+			"",
+			".cf",
+			".bz",
+			".hk",
+			".co",
+			".fm",
+			".am",
+			".ac",
+			"reset",
+			"cancel",
+			"okay",
+			"logout",
+			"login",
+			".su",
+			"person"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/searchadd.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1001,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								546,
+								546
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/findadd.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 991,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								126,
+								126
+							]
+						],
+						"settings":
+						{
+							"auto_name": "html",
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/noredirect.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 720,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								720,
+								720
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "lib/base_n.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2689,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1904,
+								1904
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 708.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "models/url.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1074,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								185,
+								185
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 643,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								643,
+								643
+							]
+						],
+						"settings":
+						{
+							"auto_name": "html",
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "controllers/url.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1828,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1677,
+								1677
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 726.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								477,
+								477
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"project": "proj.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Users\\rwhite3\\Documents\\Projects\\Capture\\lib\\db\\dbServ.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 115.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

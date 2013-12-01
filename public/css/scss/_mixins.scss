@@ -1,0 +1,22 @@
+@mixin dimensions($width : 100%, $height : 100%) {
+	width: $width;
+	height: $height;
+}
+
+@mixin icon($name, $position : before, $margin : 15px) {
+	@if $position == before {
+		&:before {
+			@extend %icon-#{$name};
+			margin-right: $margin;
+		}	
+	} @else {
+		&:after {
+			@extend %icon-#{$name};
+			margin-left: $margin;
+		}
+	}
+}
+
+@mixin font_size($multiplier) {
+	font-size: $multiplier * $font_size_base;
+}

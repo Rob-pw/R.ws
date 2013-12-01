@@ -1,0 +1,33 @@
+html
+  head
+    meta(charset='UTF-8')
+    link(rel='stylesheet', href='../css/reset.css')
+    link(rel='stylesheet', href='../css/index.css')
+    title ʀ.ws .:. Search/Create
+  body
+    header.mainNav
+      nav.left
+        a.left.icon-arrow-left(href='//xn--woa.ws') Home
+    main
+      section
+        header
+          h1 Search / Add URL
+        form(method='POST', action="/urls/")
+          input(type="hidden", name="_method", value="put")
+          .searchbar
+            input(type='search', placeholder='Search, or shorten new URL', name="longURL")
+            select
+              option(value='search') Search
+              option(value='filter') Filter
+          table
+            thead
+              th LongURL
+              th TinyURL
+            tbody
+              each item in urls
+                tr
+                  td #{item.longURL}
+                  td #{item.shortURL}
+          input(type="submit")
+    footer.legalBS
+      h1 Copyright Rob.PW; All Rights Reserved.

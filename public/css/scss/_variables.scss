@@ -1,5 +1,21 @@
+$base-font: 'open_sanslight', 'sans-serif', 'Comic Sans MS';
+
+$font_size_base: 1rem;
+$font_size_large: 3em;
+$font-size_tiny: .25em;
+
 $tron_orange: #DF740C;
 $sweet_yellow: #FFE64D;
 $pane: #E6FFFF;
 $tron_cyan: #6FC3DF;
 $basestar: #0C141F;
+$basestar_light: #2D3E4E;
+$nice_aqua: #2ea7aa;
+$light_grey: #999;
+$dark_grey: #424242;
+$very_light_grey: #cdcdcd;
+
+
+$main_text: $tron_cyan;
+$sub_text: lighten($tron_cyan, 5%);
+$accent: $pane;

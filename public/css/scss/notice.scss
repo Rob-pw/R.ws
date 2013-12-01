@@ -1,0 +1,20 @@
+@import 'variables';
+@import 'placeholders';
+@import 'mixins';
+
+header {
+
+	h1 {
+		display: inline-block;
+		margin-bottom: 8%;
+
+		@extend %hero_title;
+	}
+}
+
+p {
+	@extend %hero_descriptor;
+
+	padding-bottom: 1%;
+	border-bottom: 1.5px solid $very_light_grey;
+}

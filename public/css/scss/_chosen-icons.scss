@@ -1,0 +1,7 @@
+.icon-arrow-left {
+	@include icon(arrow-left-3);
+}
+
+.icon-arrow-right {
+	@include icon(arrow-right-3, after);
+}
