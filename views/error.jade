@@ -1,0 +1,18 @@
+html
+  head
+    meta(charset='UTF-8')
+    link(rel='stylesheet', href='../css/notice.css')
+    link(rel='stylesheet', href='../css/index.css')
+    title ʀ.ws .:. #{title}
+  body
+    header.mainNav
+      each navURL in navigationURLs
+        nav(class=navURL.direction)
+          a(class='icon-arrow-' + navURL.direction, href=navURL.url) #{navURL.title}
+    main
+      section
+        header
+          h1 #{error.title}
+        p #{error.description}
+    footer.legalBS
+      h1 Copyright Rob.PW; All Rights Reserved.
