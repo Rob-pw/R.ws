@@ -1,7 +1,11 @@
-var express = require('./lib/node_modules/express')
+"use strict";
+
+var config = require('./config/master.js')
+,		express = require('express')
 ,		app = express()
-,		mongoose = require('./lib/node_modules/mongoose')
-,		routes = require('./routes/main.js');
+,		mongoose = require('mongoose')
+,		routes = require('./router.js')(app);
+
 
 mongoose.connect('mongodb://localhost/mydb');
 var db = mongoose.connection;
@@ -12,32 +16,43 @@ db.once('open', function callback() {
 });
 
 app.use(express.bodyParser());
+
 app.use(express.methodOverride());
 
 app.use(express.static(__dirname + '/public'));
 
 app.use(app.router);
 
-app.get('/urls(/:shortUrl)?', routes.url.list);
-
-app.put('/urls', routes.url.new);
-
-app.del('/urls', routes.url.delete);
-
-app.get('/(index.html)?', routes.home);
-
-app.get('/:url', routes.url.redirect);
-
 // app.use(routes.url.redirect);
 
 app.use(function(req, res) {
-	res.send('404: Nope not found', 404);
+	res.status(404);
+	res.render(__dirname + '/views/error.jade', {
+		navigationURLs : [{
+			direction : 'right',
+			url : '//rob.pw',
+			title : "Rob.pw"
+		}],
+		error : {
+			title : "Page not found.",
+			description : "Unfortunately, that page could not be found."
+		}
+	});
 });
 
 app.use(function(req, res) {
-	res.send('500: Internal error, bad stuff broski.', 500);
+	res.status(500);
+	res.render(__dirname + '/views/error.jade', {
+		navigationURLs : [],
+		error : {
+			title : '[Fatal] Internal Server Error',
+			description : "Sysadmin notification sent"
+		}
+	});	
 });
 
-app.listen(8080, function() {
-	console.log("Listening on: 8080.");
+app.listen(config.http.port, function() {
+	console.log("Listening on: " + config.http.port);
 });
+
+exports.app = app;
