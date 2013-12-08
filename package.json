@@ -1,10 +1,16 @@
 {
-	"name" : "ʀ.ws",
-	"version" : "0.1",
+	"name" : "R.ws",
+	"description" : "Bespoke base72 URL shortener",
+	"version" : "0.0.2",
+	"author" : {
+		"name" : "Rob PW",
+		"email" : "me@rob.pw",
+		"url" : "https://rob.pw"
+	},
 	"private" : "true",
 	"dependencies" : {
-		"express" : "*",
-		"jade" : "*",
-		"mongoose" : "*"
+		"express" : "3.4.6",
+		"jade" : "0.35.0",
+		"mongoose" : "3.8.1"
 	}
 }
