@@ -1,8 +1,10 @@
+"use strict";
+
 var URL = require('../models/url.js')
 ,	viewPath = '../views/'
 ,	base_n = require('../lib/base_n.js')({
-		base : 73
-	});
+	base : 73
+});
 
 (function init() {
 	URL.collection.remove(function(){});
@@ -52,6 +54,16 @@ exports.new = function(req, res) {
 	url = new URL(urlSettings);
 	if(!url.longURL) {
 		base_n.dec();
+		res.render(viewPath + 'error.jade', {
+			navigationURLs : [{
+				direction : 'left',
+				url : '/urls',
+				title : 'URL Creation'
+			}],
+			error : {
+				title : "Invalid URL supplied."
+			}
+		});
 		return null;
 	}
 
@@ -71,12 +83,32 @@ exports.redirect = function(req, res) {
 
 	URL.findOne({shortURL : shortURL}, function(err, doc) {
 		if(err || !doc) {
-			res.send('Unable to find short URL');
+			res.render(viewPath + 'error.jade', {
+				navigationURLs : [{
+					direction : 'right',
+					url : '//rob.pw',
+					title : 'Rob.pw'
+				}],
+				error : {
+					title : "Woah, dude!",
+					description : "Short URL not found, sorry about that."
+				}
+			});
 		} else {
 			if(!doc.locked) {
 				res.redirect(301, doc.longURL);
 			} else {
-				res.send("This short URL is locked.");
+				res.render(viewPath + 'error.jade', {
+					navigationURLs : [{
+						direction : 'right',
+						url : '//rob.pw',
+						title : 'Rob.pw'
+					}],
+					error : {
+						title : "Locked",
+						description : "This URL is locked and hence cannot be visited, better luck next time!"
+					}
+				});
 			}
 		}
 	});
