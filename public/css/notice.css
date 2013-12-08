@@ -1,22 +1,22 @@
-/* line 22, scss/_placeholders.scss */
+/* line 22, ../scss/_placeholders.scss */
 header h1 {
   font-size: 8rem;
   color: #999999;
 }
 
-/* line 27, scss/_placeholders.scss */
+/* line 27, ../scss/_placeholders.scss */
 p {
   font-size: 1.5rem;
   color: #424242;
 }
 
-/* line 7, scss/notice.scss */
+/* line 7, ../scss/notice.scss */
 header h1 {
   display: inline-block;
   margin-bottom: 8%;
 }
 
-/* line 15, scss/notice.scss */
+/* line 15, ../scss/notice.scss */
 p {
   padding-bottom: 1%;
   border-bottom: 1.5px solid #cdcdcd;

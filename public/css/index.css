@@ -1,4 +1,4 @@
-/* line 3, scss/_placeholders.scss */
+/* line 3, ../scss/_placeholders.scss */
 [class*="icon-"]:before, [class*="icon-"]:after {
   font-family: MetroFont;
   speak: none;
@@ -14,7 +14,7 @@
   font-size: inherit;
 }
 
-/* line 18, scss/_placeholders.scss */
+/* line 18, ../scss/_placeholders.scss */
 header.mainNav nav a:hover, header.mainNav nav a.left:hover:before, header.mainNav nav a.right:hover:after {
   text-shadow: 0px 0px 5px;
 }
@@ -27,12 +27,12 @@ header.mainNav nav a:hover, header.mainNav nav a.left:hover:before, header.mainN
   /* Legacy iOS */
 }
 
-/* line 771, scss/_metro-font.scss */
+/* line 771, ../scss/_metro-font.scss */
 .icon-arrow-right:after {
   content: "\e09d";
 }
 
-/* line 781, scss/_metro-font.scss */
+/* line 781, ../scss/_metro-font.scss */
 .icon-arrow-left:before {
   content: "\e09f";
 }
@@ -45,49 +45,49 @@ header.mainNav nav a:hover, header.mainNav nav a.left:hover:before, header.mainN
   font-style: normal;
 }
 
-/* line 8, scss/_mixins.scss */
+/* line 8, ../scss/_mixins.scss */
 .icon-arrow-left:before {
   margin-right: 15px;
 }
 
-/* line 13, scss/_mixins.scss */
+/* line 13, ../scss/_mixins.scss */
 .icon-arrow-right:after {
   margin-left: 15px;
 }
 
-/* line 8, scss/index.scss */
+/* line 8, ../scss/index.scss */
 html, body {
   width: 100%;
   height: 100%;
   font-family: "open_sanslight", "sans-serif", "Comic Sans MS";
 }
 
-/* line 17, scss/index.scss */
+/* line 17, ../scss/index.scss */
 header.mainNav {
   width: 100%;
   height: 10%;
   background-color: #0c141f;
 }
-/* line 22, scss/index.scss */
+/* line 22, ../scss/index.scss */
 header.mainNav nav {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0 5%;
 }
-/* line 26, scss/index.scss */
+/* line 26, ../scss/index.scss */
 header.mainNav nav.left {
   justify-content: flex-start;
 }
-/* line 30, scss/index.scss */
+/* line 30, ../scss/index.scss */
 header.mainNav nav.right {
   justify-content: flex-end;
 }
-/* line 34, scss/index.scss */
+/* line 34, ../scss/index.scss */
 header.mainNav nav.ends {
   justify-content: space-between;
 }
-/* line 42, scss/index.scss */
+/* line 42, ../scss/index.scss */
 header.mainNav nav a {
   display: flex;
   align-items: center;
@@ -97,21 +97,86 @@ header.mainNav nav a {
   color: #6fc3df;
   transition: text-shadow 0.3s ease, color 0.3s ease;
 }
-/* line 52, scss/index.scss */
+/* line 52, ../scss/index.scss */
 header.mainNav nav a:active, header.mainNav nav a:visited, header.mainNav nav a:link {
   color: #6fc3df;
   text-decoration: none;
 }
-/* line 57, scss/index.scss */
+/* line 57, ../scss/index.scss */
 header.mainNav nav a:hover, header.mainNav nav a.left:before:hover, header.mainNav nav a.right:after:hover {
   color: #df740c;
 }
-/* line 62, scss/index.scss */
+/* line 62, ../scss/index.scss */
 header.mainNav nav a.right {
   justify-content: flex-end;
 }
 
-/* line 3, scss/main.scss */
+/* line 17, ../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../scss/main.scss */
 main {
   width: 100%;
   height: 85%;
@@ -128,21 +193,21 @@ main {
   background-image: -o-radial-gradient(center, ellipse cover, #f2f2f2 0%, #ededed 42%, #cccccc 100%);
   background-image: radial-gradient(center, ellipse cover, #f2f2f2 0%, #ededed 42%, #cccccc 100%);
 }
-/* line 15, scss/main.scss */
+/* line 16, ../scss/main.scss */
 main section {
   display: inline-block;
   padding: 0 5%;
 }
-/* line 23, scss/main.scss */
+/* line 24, ../scss/main.scss */
 main em.italic {
   font-style: italic;
 }
-/* line 27, scss/main.scss */
+/* line 28, ../scss/main.scss */
 main em.small {
   font-size: 0.8rem;
 }
 
-/* line 71, scss/index.scss */
+/* line 71, ../scss/index.scss */
 footer {
   display: flex;
   justify-content: center;
@@ -151,7 +216,7 @@ footer {
   height: 5%;
   background-color: #0c141f;
 }
-/* line 78, scss/index.scss */
+/* line 78, ../scss/index.scss */
 footer h1 {
   color: #45b2d6;
 }
