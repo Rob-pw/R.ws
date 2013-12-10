@@ -8,7 +8,7 @@ var mongoose = require('../node_modules/mongoose')
 			throw new Error("No URL supplied.");
 		} else {
 			if(url.match(regxp)) {
-				return url.toLowerCase();
+				return url;
 			} else {
 				throw new Error("Invalid URL supplied.");
 			}
