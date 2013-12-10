@@ -7,7 +7,7 @@ var URL = require('../models/url.js')
 });
 
 (function init() {
-	URL.collection.remove(function(){});
+	// URL.collection.remove(function(){});
 
 	URL.findOne({}, null, { sort: { decimalValue : -1 } }, function(err, url) {
 		if(err) {
